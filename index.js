@@ -16,7 +16,7 @@ function moveDodgerLeft() {
 //move dodger right function and event
 function moveDodgerRight() {
     const rightMeasurement = dodger.style.left.replace(`px`, ``)
-    const right = parseInt(rightMeasurement)
+    const left = parseInt(rightMeasurement)
     if (left < 40) {
         dodger.style.left = `${left + 1}`
     }
